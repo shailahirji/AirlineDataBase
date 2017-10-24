@@ -17,7 +17,7 @@ using namespace std;
 
 char operationPrompt(); //prompts user to select task and returns user input
 int selectFlight(int const FlightNo); //converts user's desired flightNo into 0/1/2/3 used to access array indexes
-int inputValidity(string name); //checks if user has enetered a valid input for name
-int getFlightInput();
+int inputValidity(string name); //checks if user has entered a valid input for name
+int getFlightInput();//evaluate's users input for flight number
 
 #endif /* HELPER_H_ */
